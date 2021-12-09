@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+body {
+    max-width: 1040px;
+    font-family: '游明朝';
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*---------------------- header ------------------*/
+.fixed {
+    width: 90%;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+}
+.fixed menu p:hover {
+    color: blue;
+    font-size: 130%;
+}
+@media screen and (min-width:1100px) {
+    .fixed {
+        max-width: 61%;
+        padding: 0 260px;
+        position: fixed;
+        left: 0;
+    }
+}
+header h1 {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+header span {
+    font-size: 12px;
+    letter-spacing: 0;
+    color: rgb(97, 105, 104);
+}
+@media screen and (min-width:800px) {
+    header span {
+        font-size: 14px;
+    }
+}
+.mainname {
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px rgb(203, 205, 206);
+    margin-right: 5px;
+}
+header .ne {
+    color: rgb(247, 218, 58);
+}
+header .ru {
+    color: rgb(13, 247, 29);
+}
+header .nail {
+    color: rgb(255, 39, 57);
+}
+header menu {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+header menu p {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:480px) {
+    header menu p {
+        width: 80px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:800px) {
+    header menu p {
+        width: 100px;
+        font-size: 16px;
+    }
+}
+
+.web {
+    background-color: aqua;
+    padding: 5px 5px;
+    color: white;
+}
+.menuimg {
+    margin-top:90px;
+    position: relative;
+}
+.menuimg .img1 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    filter: contrast(120%);
+    filter: saturate(500%);
+}
+.img2 {
+    width: 10%;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+
+/*------------------- main ----------------- */
+main {
+    margin: 0 20px;
+    margin-top: 130px;
+}
+.shopname {
+    width: 200px;
+    position: relative;
+    float: left;
+}
+.shop {
+    margin: 10px;
+    padding: 10px 0;
+    border: 1px solid;
+    font-size: 14px;
+}
+.shop input {
+    margin: 0 10px;
+    height: 10px;
+}
+.shopname img {
+    position: absolute;
+    display: block;
+    margin-top: 0.6px;
+    width: 60px;
+    height: 43px;
+    top: 10.5px;
+    right: 10.6px;
+}
+.warning {
+    padding-left: 10px;
+    clear: both;
+    font-size: 12px;
+    color: red;
+}
+.corse {
+    border-top: 1px solid rgb(233, 229, 229);
+    border-bottom: 1px solid rgb(226, 219, 219);
+}
+.corse p {
+    text-align: center;
+    margin: 5px 0;
+}
+
+/*----------------- menu ------------------ */
+#menu {
+    margin: 20px;
+    padding: 0 0 10px 0;
+    background-color:rgb(251, 239, 226);
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    padding-top: 0;
+}
+.menulist {
+    width: 300px;
+    margin: 10px 0 0 7px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.hand {
+    margin: 5px 0 0 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    width: 50px;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: -1px;
+    border: 1px solid rgb(117, 226, 243);
+    color: rgb(117, 226, 243);
+    float: left;
+}
+.infoimg {
+    width: 10%;
+    height: 30px;
+    margin-top: 0;
+    float: right;
+}
+.traial {
+    height: 50px;
+    margin: 0 0 10px 0;
+    clear: both;
+    font-size: 16px;
+    font-weight: bold; 
+}
+.buygroup {
+    position: relative;
+    margin-left: 180px;
+}
+.buy {
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    float: left;
+}
+.buy2 {
+    margin: 2px;
+    font-size: 10px;
+    color: rgb(177, 172, 172);
+    float: left;
+}
+.watch {
+    margin: 0px;
+    width: 16%;
+    float: left;
+}
+.buy3 {
+    margin: 2px;
+    font-size: 10px;
+    float: left;
+}
+.basiccare {
+    clear: both;
+    height: 30px;
+    font-size: 11px;
+    letter-spacing: -1px;
+}
+.anderline {
+    border: 1px dotted rgb(245, 241, 241);
+    margin: 20px 0 5px 0;
+}
+.choise {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(253, 115, 91);
+}
+.choise span {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 4px 40px;
+
+}

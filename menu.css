@@ -1,0 +1,644 @@
+@charset "UTF-8";
+
+body {
+    max-width: 900px;
+    font-family: '游明朝';
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*---------------------- header ------------------*/
+.fixed {
+    width: 90%;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+}
+.fixed menu p:hover {
+    color: blue;
+    font-size: 130%;
+}
+@media screen and (min-width:1100px) {
+    .fixed {
+        max-width: 61%;
+        padding: 0 260px;
+        position: fixed;
+        left: 0;
+    }
+}
+header h1 {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+header span {
+    font-size: 12px;
+    letter-spacing: 0;
+    color: rgb(97, 105, 104);
+}
+@media screen and (min-width:800px) {
+    header span {
+        font-size: 14px;
+    }
+}
+.mainname {
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px rgb(203, 205, 206);
+    margin-right: 5px;
+}
+header .ne {
+    color: rgb(247, 218, 58);
+}
+header .ru {
+    color: rgb(13, 247, 29);
+}
+header .nail {
+    color: rgb(255, 39, 57);
+}
+header menu {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+header menu p {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:480px) {
+    header menu p {
+        width: 80px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:800px) {
+    header menu p {
+        width: 100px;
+        font-size: 16px;
+    }
+}
+
+.web {
+    background-color: aqua;
+    padding: 5px 5px;
+    color: white;
+}
+
+/* -------------------- main --------------------- */
+.infomation p {
+    font-size: 10px;
+    display: inline-block;
+}
+.infomation .allow1 {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    transform: rotate(45deg);
+    margin-bottom: 1px;
+}
+main {
+    width: 90%;
+    margin: 20px;
+    margin-top: 80px;
+    padding: 0;
+}
+@media screen and (min-width:640px) {
+    main{
+        width: 96%;
+        padding-right: 10px;
+    }
+}
+main h2 {
+    margin: 0 0 20px 0;
+    padding: 0 0 5px 0;
+    text-align: center;
+    font-size: 16px;
+}
+@media screen and (min-width:800px) {
+    main h2 {
+        font-size: 20px;
+    }
+}
+main img {
+    width: 100%;
+    display: block;
+}
+main .care {
+    font-size: 14px;
+    font-weight: bold;
+}
+@media screen and (min-width:800px) {
+    main .care {
+        margin-bottom: 10px;
+    }
+}
+.member {
+    border: 1px solid;
+}
+.center {
+    margin-left: 60px;
+}
+.member .center p {
+    margin: 0;
+}
+.rowheight {
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 11px;
+    padding-bottom: 0;
+    line-height: 1;
+}
+.space {
+    line-height: 1;
+}
+.buy1 {
+    float: left;
+    display: block;
+    line-height: 1;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 5px 0px 5px;
+    color: rgb(123, 71, 255);
+}
+.tuki {
+    clear: both;
+    text-align: center;
+    background-color: rgb(118, 105, 85);
+    color: white;
+    margin: 5px 10px;
+    font-size: 14px;
+}
+.percent ul {
+    margin: 0;
+    padding: 0;
+}
+.percent li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.basic {
+    margin: 0 0 0 10px;
+    padding-top: 7px;
+    line-height: 1;
+    float: left;
+    font-size: 13px;
+}
+.zero {
+    margin: 0;
+    display: block;
+    font-size: 22px;
+    float: left;
+    color: rgb(123, 71, 255);
+}
+.display {
+    margin: 0 3px;
+    font-size: 13px;
+    line-height: 1;
+    padding-top: 6px;
+    float: left;
+}
+.fifty {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    color: rgb(123, 71, 255);
+}
+
+@media screen and (min-width:800px) {
+    .member {
+        padding-top: 5px;
+    }
+    .center .rowheight {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .center .buy1 {
+        font-size: 50px;
+        padding: 5px;
+    }
+    .member .basic {
+        font-size: 14px;
+    }
+    .member .zero {
+        margin: 0;
+        font-size: 28px;
+    }
+    .percent {
+        margin-bottom: 10px;
+    }
+    .percent p {
+        clear: both;
+    }
+    .percent ul {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .percent li {
+        margin: 0;
+        padding: 0;
+    }
+    .display {
+        font-size: 14px;
+    }
+    .percent .fifty {
+        margin: 5px 0 0 0;
+        padding: 0;
+        font-size: 28px;
+    }
+}
+
+.peple {
+    background-color: rgb(123, 71, 255);
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+.peple p {
+    margin: 10px;
+}
+.allow {
+    position: absolute;
+    top: -1.1rem;
+    right: 0.5rem;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+@media screen and (min-width:640px) {
+    main img {
+        margin-bottom: 50px;
+        width: 48%;
+        height: 264px;
+        float: left;
+    }
+    .care {
+        margin: 0 10px;
+        width: 48%;
+        float: left;
+    }
+    .member{
+        width: 48%;
+        margin: 0 10px;
+        float: left;
+    }
+    .zero {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .fifty {
+        padding-top: 5px;
+        font-size: 17px;
+        letter-spacing: 0;
+        padding-bottom: 10px;
+    }
+    .peple {
+        width: 48%;
+        margin: 20px 10px;
+        float: left;
+    }
+    .allow {
+        position: absolute;
+        top: -0.55rem;
+    }
+    .design {
+        clear: both;
+    }
+}
+
+/*---------------- section --------------- */
+.section {
+    clear: both;
+    margin: 0;
+    margin-top: 30px;
+}
+.section h3 {
+    text-align: center;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    line-height: 20px;
+    font-weight: bold;
+}
+.section .top-p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+/*------------ couse ------------------ */
+.section ul {
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+.section li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.couse {
+    border: 1px solid rgb(179, 179, 133);
+    position: relative;
+    margin: 30px 5px;
+}
+.couse p {
+    text-align: center;
+}
+.number {
+    border: 2px solid rgb(165, 165, 119);
+    display: block;
+    width: 40px;
+    min-height: 40px;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 25px;
+    position: absolute;
+    top: -2.9rem;
+    left: 48%;
+    z-index: 2;
+    background-color: white;
+    color: rgb(137, 95, 17);
+}
+.text1 {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    line-height: 15px;
+}
+.text2 {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+.couse img {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+}
+.text3 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 25px;
+}
+.text4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 20px;
+}
+.textplus1 {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+.text5 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 10px;
+}
+#text5 {
+    margin-bottom: 2px;
+}
+.polish1 {
+    font-size: 10px;
+    margin: 0 15px 0 4px;
+    padding-left: 35px;
+    letter-spacing: -2px;
+}
+.jel1 {
+    font-size: 10px;
+}
+.text6 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(243, 13, 32);
+    line-height: 12px;
+}
+.polish2 {
+    font-size: 10px;
+    margin: 0 10px;
+    padding-left: 80px;
+}
+.jel2 {
+    font-size: 10px;
+}
+.traial {
+    text-align: right;
+    margin: 0 5px;
+    padding: 0;
+    font-size: 12px;
+}
+#couse {
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width:640px) {
+    .couse {
+        margin-bottom: 0;
+    }
+    .section ul {
+        display: flex;
+    }
+    .couse img {
+        margin: 0 70px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    #couse1 .text4 {
+        margin-bottom: 50px;
+    }
+    #couse .text4 {
+        margin-bottom: 33px;
+    }
+    .traial {
+        margin-bottom: 50px;
+    }
+}
+
+/*---------------- sub ------------------ */
+sub .careinfo {
+    margin: 22px;
+}
+.careinfo h6 {
+    background-color: rgb(243, 240, 240);
+    padding: 5px 10px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 0;
+}
+.careborder {
+    border-bottom: 1px solid rgb(194, 189, 189);
+    font-size: 12px;
+    font-weight: bolder;
+    margin: 10px 5px;
+    padding: 10px 0 5px 0;
+    letter-spacing: -1px;
+}
+.caremenu {
+    margin: 20px 0;
+} 
+.handcare {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+.handcare .redline {
+    border: 1px solid;
+    margin: 0 5px;
+    padding: 0 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: indianred;
+}
+.memberall {
+    text-align: right;
+}
+#memberbuy1 {
+    border: 1px solid rgb(148, 113, 236);
+    border-right: none;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 5px;
+    background-color: rgb(148, 113, 236);
+    color: white;
+}
+.memberbuy1 {
+    border: 1px solid rgb(148, 113, 236);
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px 5px;
+    color: rgb(148, 113, 236);
+}
+#memberbuy2 {
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid rgb(228, 218, 218);
+    padding: 3px 5px;
+    border-right: none;
+    background-color: rgb(228, 218, 218);
+}
+.memberbuy2 {
+    font-size: 10px;
+    border: 1px solid rgb(228, 218, 218);
+    padding: 3px 5px;
+}
+#memberbottom {
+    margin-bottom: 50px;
+}
+.nailistprice {
+    margin: 0px;
+    margin-bottom: 50px;
+    border: 1px solid rgb(211, 203, 203);
+    position: relative;
+}
+.nailistprice p {
+    margin-left: 10px;
+    display: inline-block;
+}
+.lastmember {
+    position: absolute;
+    top: 0.8rem;
+    right: 1.3rem;
+}
+#memberwidth {
+    padding-right: 5px;
+    padding-left: 13px;
+}
+
+@media screen and (min-width:640px) {
+    .careinfo h6 {
+        font-size: 16px;
+    }
+    .careinfo p {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+    .careinfo .redline {
+        font-size: 14px;
+    }
+    .memberall #memberbuy1, .memberbuy1, #memberbuy2, .memberbuy2 {
+        font-size: 14px;
+    }
+    .lastmember #memberbuy1 {
+        font-size: 14px;
+    }
+    #memberwidth {
+        padding-right: 6px;
+        padding-left: 15px;
+    }
+}
+
+/*------------------- footer ---------------- */
+.footer {
+    background-color: rgb(227, 247, 251);
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer h6 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    padding-bottom: 0;
+}
+.footer p {
+    margin: 0 5px;
+    padding-left: 7px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+@media screen and (min-width:800px) {
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+.footer a {
+    text-decoration: none;
+    color: grey;
+}
+.private {
+    text-align: center;
+}
+.private p {
+    display: inline-block;
+    font-size: 10px;
+    padding: 0 3px;
+}
+.private p:not(:first-child) {
+    border-left: 1px solid grey;
+    line-height: 8px;
+}
+.office {
+    font-size: 12px;
+    text-align: center;
+}
+

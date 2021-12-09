@@ -1,0 +1,863 @@
+@charset "UTF-8";
+
+body {
+    max-width: 900px;
+    font-family: '游明朝';
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*---------------------- header ------------------*/
+.fixed {
+    width: 90%;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+}
+.fixed menu p:hover {
+    color: blue;
+    font-size: 130%;
+}
+@media screen and (min-width:1100px) {
+    .fixed {
+        max-width: 61%;
+        padding: 0 260px;
+        position: fixed;
+        left: 0;
+    }
+}
+header h1 {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+header span {
+    font-size: 12px;
+    letter-spacing: 0;
+    color: rgb(97, 105, 104);
+}
+@media screen and (min-width:800px) {
+    header span {
+        font-size: 14px;
+    }
+}
+.mainname {
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px rgb(203, 205, 206);
+    margin-right: 5px;
+}
+header .ne {
+    color: rgb(247, 218, 58);
+}
+header .ru {
+    color: rgb(13, 247, 29);
+}
+header .nail {
+    color: rgb(255, 39, 57);
+}
+header menu {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+header menu p {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:480px) {
+    header menu p {
+        width: 80px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:800px) {
+    header menu p {
+        width: 100px;
+        font-size: 16px;
+    }
+}
+
+.web {
+    background-color: aqua;
+    padding: 5px 5px;
+    color: white;
+}
+.menuimg {
+    margin-top:90px;
+    position: relative;
+}
+.menuimg .img1 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    filter: contrast(120%);
+    filter: saturate(500%);
+}
+.img2 {
+    width: 10%;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+
+/* -------------------- main --------------------- */
+main {
+    width: 90%;
+    margin: 20px;
+    padding: 0;
+}
+@media screen and (min-width:640px) {
+    main{
+        width: 96%;
+        padding-right: 10px;
+    }
+}
+main h2 {
+    margin: 0 0 20px 0;
+    padding: 0 0 5px 0;
+    text-align: center;
+    font-size: 16px;
+}
+@media screen and (min-width:800px) {
+    main h2 {
+        font-size: 20px;
+    }
+}
+main img {
+    width: 100%;
+    display: block;
+}
+main .care {
+    font-size: 14px;
+    font-weight: bold;
+}
+@media screen and (min-width:800px) {
+    main .care {
+        margin-bottom: 10px;
+    }
+}
+.member {
+    border: 1px solid;
+}
+.center {
+    margin-left: 60px;
+}
+.member .center p {
+    margin: 0;
+}
+.rowheight {
+    float: left;
+    font-weight: bold;
+    margin: 0;
+    padding: 11px;
+    padding-bottom: 0;
+    line-height: 1;
+}
+.space {
+    line-height: 1;
+}
+.buy1 {
+    float: left;
+    display: block;
+    line-height: 1;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 5px 0px 5px;
+    color: rgb(123, 71, 255);
+}
+.tuki {
+    clear: both;
+    text-align: center;
+    background-color: rgb(118, 105, 85);
+    color: white;
+    margin: 5px 10px;
+    font-size: 14px;
+}
+.percent ul {
+    margin: 0;
+    padding: 0;
+}
+.percent li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.basic {
+    margin: 0 0 0 10px;
+    padding-top: 7px;
+    line-height: 1;
+    float: left;
+    font-size: 13px;
+}
+.zero {
+    margin: 0;
+    display: block;
+    font-size: 22px;
+    float: left;
+    color: rgb(123, 71, 255);
+}
+.display {
+    margin: 0 3px;
+    font-size: 13px;
+    line-height: 1;
+    padding-top: 6px;
+    float: left;
+}
+.fifty {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+    color: rgb(123, 71, 255);
+}
+
+@media screen and (min-width:800px) {
+    .member {
+        padding-top: 5px;
+    }
+    .center .rowheight {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .center .buy1 {
+        font-size: 50px;
+        padding: 5px;
+    }
+    .member .basic {
+        font-size: 14px;
+    }
+    .member .zero {
+        margin: 0;
+        font-size: 28px;
+    }
+    .percent {
+        margin-bottom: 10px;
+    }
+    .percent p {
+        clear: both;
+    }
+    .percent ul {
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    .percent li {
+        margin: 0;
+        padding: 0;
+    }
+    .display {
+        font-size: 14px;
+    }
+    .percent .fifty {
+        margin: 5px 0 0 0;
+        padding: 0;
+        font-size: 28px;
+    }
+}
+
+.peple {
+    background-color: rgb(123, 71, 255);
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+.peple p {
+    margin: 10px;
+    color: white;
+}
+.peple p:hover {
+    font-size: 100%;
+    color: blue;
+}
+.peple a {
+    text-decoration: none;
+}
+.allow {
+    position: absolute;
+    top: -1.1rem;
+    right: 0.5rem;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+@media screen and (min-width:640px) {
+    main img {
+        margin-bottom: 20px;
+        width: 48%;
+        height: 264px;
+        float: left;
+    }
+    .care {
+        margin: 0 10px;
+        width: 48%;
+        float: left;
+    }
+    .member{
+        width: 48%;
+        margin: 0 10px;
+        float: left;
+    }
+    .zero {
+        font-size: 18px;
+        padding-top: 5px;
+    }
+    .fifty {
+        padding-top: 5px;
+        font-size: 17px;
+        letter-spacing: 0;
+        padding-bottom: 10px;
+    }
+    .peple {
+        width: 48%;
+        margin: 20px 10px;
+        float: left;
+    }
+    .allow {
+        position: absolute;
+        top: -0.55rem;
+    }
+    .design {
+        clear: both;
+    }
+}
+
+/*----------------- menulist ------------------ */
+.peple1 {
+    background-color: rgb(123, 71, 255);
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+@media screen and (min-width:640px) {
+    .peple1 {
+        width: 47%;
+        padding: 0.5px;
+    }
+}
+.peple1 .allow {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0.2rem;
+    right: 1rem;
+}
+@media screen and (min-width:640px) {
+    .peple1 .allow {
+        top: 1.2rem;
+    }
+}
+.linkup {
+    text-decoration: none;
+}
+.linkup p:hover {
+    color: blue;
+}
+.design {
+    text-align: center;
+    margin: 25px 0 3px 0;
+}
+.menulist ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menulist li {
+    width: 47%;
+    margin: 5px;
+    padding: 0;
+    list-style-type: none;
+}
+.menulist img {
+    width: 100%;
+}
+.menulist p {
+    margin: 0;
+    display: block;
+}
+.menulist a {
+    text-decoration: none;
+    color: black;
+}
+.menulist .nailinfo {
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 0;
+    font-size: 12px;
+}
+.menulist .year {
+    color: rgb(160, 153, 153);
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width:640px) {
+    .design {
+        clear: both;
+        margin: 30px 0;
+        padding-top: 20px;
+        margin-bottom: 0px;
+    }
+    .menulist {
+        width: 99%;
+    }
+    .menulist li {
+        width: 31.5%;
+        height: auto;
+        display: block;
+    }
+    .menulist img {
+        margin-bottom: 5px;
+        height: auto;
+    }
+    .menulist .nailinfo {
+        font-size: 14px;
+    }
+}
+
+/*-------------- costomers --------------- */
+.costomers ul {
+    margin: 0;
+    padding: 0;
+}
+.costomers li {
+    margin: 15px 0;
+    position: relative;
+    list-style-type: none;
+    border: 1px solid rgb(182, 182, 182);
+}
+.costomers img {
+    width: 30%;
+    margin: 10px;
+    float: left;
+}
+img.human {
+    margin: 0;
+    position: absolute;
+    top: 3rem;
+    right: 1.5rem;
+    width: 20%;
+}
+.sumbnal {
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.old {
+    float: right;
+    padding-right: 9rem;
+    padding-top: 5px;
+    font-size: 12px;
+    letter-spacing: -1px;
+}
+.coment {
+    clear: both;
+    margin: 10px;
+    font-size: 14px;
+}
+
+@media screen and (min-width:640px) {
+    .costomers {
+        margin-bottom: 50px;
+    }
+    .costomers ul {
+        display: flex;
+    }
+    .costomers li {
+        position: relative;
+        margin-right: 10px;
+        width: 32%;
+    }
+    .costomers img {
+        width: 40%;
+        height: auto;
+    }
+    .sumbnal {
+        font-size: 12px;
+        z-index: 2;
+    }
+    .old {
+        position: absolute;
+        top: 4.5rem;
+        left: 6.5rem;
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    .costomlist .human {
+        width: 25%;
+        position: absolute;
+        top: 3.3rem;
+        right: 0.2rem;
+        z-index: 1;
+    }
+    .coment {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:750px) {
+    .old {
+        position: absolute;
+        left: 8rem;
+    }
+}
+
+/*------------------ sub --------------------- */
+sub {
+    margin: 0;
+}
+sub h4 {
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+sub h4::before, sub h4::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background: rgb(223, 221, 221);
+    display: block;
+}
+sub h4::before {
+    margin-right: 1rem;
+}
+sub h4::after {
+    margin-left: 1rem;
+}
+.picksub {
+    margin: 0;
+    font-size: 8px;
+    text-align: center;
+}
+.caremenu {
+    border: 1px solid rgb(197, 134, 145);
+    color: rgb(197, 134, 145);
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(247, 226, 244);
+}
+.caremenu .font1 {
+    font-size: 20px;
+    margin: 10px 10px 0 10px;
+    font-weight: bold;
+}
+.caremenu .font2 {
+    position: relative;
+    margin: 0 10px 10px 10px;
+    z-index: 2;
+}
+.caremenu img {
+    width: 100px;
+    height: 93px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+#care2 {
+    border: 1px solid rgb(160, 160, 62);
+    color: rgb(171, 171, 73);
+    background-color: rgb(221, 248, 215);
+}
+
+@media screen and (min-width:640px) {
+    .caremenu {
+        width: 43%;
+    }
+    #care1 {
+        float: right;
+    }
+}
+@media screen and (min-width:800px) {
+    .picksub {
+        font-size: 12px;
+    }
+}
+
+/*--------------- Nailist ----------------- */
+.nailist {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    position: relative;
+    background-color: rgb(245, 236, 248);
+}
+.nailist h5 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.nailist .allstaff {
+    display: block;
+    border: 1px solid;
+    width: 70px;
+    padding-left: 5px;
+    font-size: 10px;
+    margin-top: 0;
+    position: absolute;
+    top: 0.8rem;
+    right: 1rem;
+}
+.nailstaff {
+    margin: 10px;
+}
+.nailstaff ul {
+    margin: 0;
+    margin-right: 5px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nailstaff li {
+    list-style-type: none;
+    width: 33%;
+}
+.nailist img {
+    width: 90%;
+    margin: 20px 5px 5px 5px;
+    padding: 0 5px;
+    border-radius: 50%;
+    background-size: contain;
+}
+.nailist img:hover {
+    filter: opacity(50%);
+}
+.nailstaff a {
+    text-decoration: none;
+}
+.nailstaff p {
+    text-decoration: none;
+    color: black;
+}
+.nailstaff p {
+    display: block;
+    width: 100px;
+    margin: 0;
+    margin-left: 20px;
+}
+.nailstaff .nailstaff-font1 {
+    color: rgb(199, 148, 247);
+    margin: 0;
+    margin-left: 10px;
+    text-align: center;
+}
+.nailstaff .nailstaff-font2 {
+    text-decoration: none;
+    font-size: 10px;
+    margin-top: 5px;
+}
+.nailstaff-font1:hover {
+    color: blue;
+}
+
+@media screen and (min-width:640px) {
+    .nailist {
+        margin: 50px 20px;
+        margin-top: 70px;
+        padding-left: 10px;
+    }
+    .nailist h5 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .nailist .allstaff {
+        width: auto;
+        padding: 0 3px;
+        font-size: 14px;
+        position: absolute;
+        top: 1.5rem;
+    }
+    .nailstaff li {
+        width: 33%;
+        padding: 0;
+    }
+    .nailstaff img {
+        margin: 0 10px;
+    }
+    .nailstaff-font1 {
+        font-size: 16px;
+        padding-left: 40px;
+    }
+    .nailstaff .nailstaff-font2 {
+        width: 100%;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .nailstaff li {
+        width: 25%;
+    }
+}
+
+/*----------------- saloninfo ---------------- */
+.saloninfo h6 {
+    font-size: 16px;
+    margin: 0 10px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.saloninfo h6::before, .saloninfo h6::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background: rgb(220, 214, 214);
+    display: block;
+}
+.saloninfo h6::before {
+    margin-right: 1rem;
+}
+.saloninfo h6::after {
+    margin-left: 1rem;
+}
+.saloninfo p {
+    margin: 0 10px;
+    font-size: 12px;
+    text-align: center;
+}
+@media screen and (min-width:640px) {
+    .saloninfo p {
+        font-size: 12px;
+    }
+    .saloninfo h6 {
+        font-size: 20px;
+    }
+}
+
+.saloninfo1 ul {
+    margin: 10px;
+    padding: 10px;
+}
+.saloninfo1 li {
+    margin: 0;
+    list-style-type: none;
+}
+@media screen and (min-width:640px) {
+    .saloninfo1 ul {
+        display: flex;
+    }
+    .saloninfo1 li {
+        width: 40%;
+        margin: 0 auto;
+    }
+    .saloninfo1 li p {
+        font-size: 12px;
+    }
+    .saloninfo1 li p span {
+        font-size: 20px;
+    }
+}
+
+.saloninfo1 p {
+    margin: 3px 20px;
+    font-size: 10px;
+}
+.saloninfo1 .nailname {
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.saloninfo1 .position {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 8px;
+}
+.saloninfo1 img {
+    width: 90%;
+    margin: 0 18px;
+}
+.saloninfo1 span {
+    font-size: 16px;
+    margin-left: 5px;
+}
+.saloninfo1 .viewbord {
+    width: 200px;
+    border: 1px solid grey;
+    margin: 30px auto;
+    padding: 20px 0;
+    text-align: center;
+}
+.saloninfo1 .viewbord a {
+    text-decoration: none;
+
+}
+.saloninfo1 .viewbord a:hover {
+    font-size: 130%;
+    text-decoration: underline;
+    color: blue;
+}
+
+/*------------------- footer ---------------- */
+.footer {
+    background-color: rgb(227, 247, 251);
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer h6 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    padding-bottom: 0;
+}
+.footer p {
+    margin: 0 5px;
+    padding-left: 7px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+@media screen and (min-width:800px) {
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+.footer a {
+    text-decoration: none;
+    color: grey;
+}
+.private {
+    text-align: center;
+}
+.private p {
+    display: inline-block;
+    font-size: 10px;
+    padding: 0 3px;
+}
+.private p:not(:first-child) {
+    border-left: 1px solid grey;
+    line-height: 8px;
+}
+.office {
+    font-size: 12px;
+    text-align: center;
+}

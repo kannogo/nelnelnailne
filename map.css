@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+body {
+    max-width: 700px;
+    font-family: '游明朝';
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*---------------------- header ------------------*/
+.fixed {
+    width: 90%;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+}
+.fixed menu p:hover {
+    color: blue;
+    font-size: 130%;
+}
+@media screen and (min-width:1100px) {
+    .fixed {
+        max-width: 61%;
+        padding: 0 225px;
+        position: fixed;
+        left: 0;
+    }
+}
+header h1 {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+header span {
+    font-size: 12px;
+    letter-spacing: 0;
+    color: rgb(97, 105, 104);
+}
+@media screen and (min-width:800px) {
+    header span {
+        font-size: 14px;
+    }
+}
+.mainname {
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px rgb(203, 205, 206);
+    margin-right: 5px;
+}
+header .ne {
+    color: rgb(247, 218, 58);
+}
+header .ru {
+    color: rgb(13, 247, 29);
+}
+header .nail {
+    color: rgb(255, 39, 57);
+}
+header menu {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+header menu p {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:480px) {
+    header menu p {
+        width: 80px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:800px) {
+    header menu p {
+        width: 100px;
+        font-size: 16px;
+    }
+}
+
+.web {
+    background-color: aqua;
+    padding: 5px 5px;
+    color: white;
+}
+
+/*-------------------- main ------------------*/
+main {
+    margin: 0 20px;
+}
+.infomation {
+    margin-top: 100px;
+    font-size: 10px;
+}
+.infomation p {
+    display: inline-block;
+}
+.allow {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    transform: rotate(45deg);
+    margin: 0 5px;
+    margin-bottom: 1px;
+}
+.salonmap {
+    margin-top: 0;
+}
+.salonmap h1 {
+    text-align: center;
+    font-size: 20px;
+}
+.shopname {
+    display: block;
+    width: 20%;
+    margin: 5px auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+    padding: 0 30px;
+    border-radius: 20px;
+    background-color: rgb(236, 229, 229);
+}
+.salonmap .mainimage {
+    width: 100%;
+    height: auto;
+}
+.subinfo {
+    position: relative;
+}
+.subinfo ul {
+    margin: 0;
+    padding: 0;
+}
+.subinfo li {
+    width: 50%;
+    list-style-type: none;
+}
+.subimg {
+    width: 70%;
+}
+.nailinfo p {
+    margin: 5px;
+    font-size: 12px;
+}
+.subinfo .nailinfo {
+    width: 60%;
+    margin-left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nailinfo .nailname {
+    margin-top: 5px;
+    margin-bottom: 0;
+    line-height: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.position {
+    margin: 0;
+    line-height: 15px;
+}
+.redtext {
+    color: red;
+}
+.redtext a {
+    color: red;
+}
+.nailinfo span {
+    font-size: 16px;
+}
+.line {
+    margin-top: 20px;
+    border-bottom: 1px dotted rgb(206, 197, 197);
+}
+.time {
+    font-size: 12px;
+}
+
+@media screen and (min-width:600px) {
+    .salonmap h1 {
+        font-size: 25px;
+    }
+    .salonmap .shopname {
+        font-size: 16px;
+    }
+    .salonmap .mainimage {
+        height: 70vh;
+    }
+    .subinfo ul {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .subinfo li {
+        width: 30%;
+    }
+    .subinfo li:not(:first-child) {
+        margin-left: 10px;
+    }
+    .subinfo img {
+        width: 90%;
+        height: auto;
+    }
+    .subinfo .nailinfo {
+        position: relative;
+        width: 40%;
+        font-size: 1px;
+        
+    }
+    .nailinfo p {
+        margin: 0;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .nailinfo .nailname {
+        font-size: 20px;
+    }
+    .nailinfo .position {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .nailinfo .redtext {
+        line-height: 20px;
+        margin-top: 10px;
+    }
+}
+
+
+/*-------------------- map -------------------- */
+.map iframe {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 100%;
+    height: 40vh;
+}
+
+/*----------------- footer ----------------- */
+.footer {
+    background-color: rgb(227, 247, 251);
+    padding-bottom: 20px;
+    text-align: center;
+}
+.footer h6 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    padding-bottom: 0;
+}
+.footer p {
+    margin: 0 5px;
+    padding-left: 7px;
+    display: inline-block;
+    font-size: 10px;
+}
+
+@media screen and (min-width:800px) {
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+.footer a {
+    text-decoration: none;
+    color: grey;
+}
+.private {
+    text-align: center;
+}
+.private p {
+    display: inline-block;
+    font-size: 10px;
+    padding: 0 3px;
+}
+.private p:not(:first-child) {
+    border-left: 1px solid grey;
+    line-height: 8px;
+}
+.office {
+    font-size: 12px;
+    text-align: center;
+}

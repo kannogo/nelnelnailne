@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body {
+    max-width: 700px;
+    font-family: '游明朝';
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*---------------------- header ------------------*/
+.fixed {
+    width: 90%;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+}
+.fixed menu p:hover {
+    color: blue;
+    font-size: 130%;
+}
+@media screen and (min-width:1100px) {
+    .fixed {
+        max-width: 61%;
+        padding: 0 260px;
+        position: fixed;
+        left: 0;
+    }
+}
+header h1 {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+header span {
+    font-size: 12px;
+    letter-spacing: 0;
+    color: rgb(97, 105, 104);
+}
+@media screen and (min-width:800px) {
+    header span {
+        font-size: 14px;
+    }
+}
+.mainname {
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px rgb(203, 205, 206);
+    margin-right: 5px;
+}
+header .ne {
+    color: rgb(247, 218, 58);
+}
+header .ru {
+    color: rgb(13, 247, 29);
+}
+header .nail {
+    color: rgb(255, 39, 57);
+}
+header menu {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+header menu p {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+@media screen and (min-width:480px) {
+    header menu p {
+        width: 80px;
+        text-align: center;
+    }
+}
+@media screen and (min-width:800px) {
+    header menu p {
+        width: 100px;
+        font-size: 16px;
+    }
+}
+
+.web {
+    background-color: aqua;
+    padding: 5px 5px;
+    color: white;
+}
+.menuimg {
+    margin-top:90px;
+    position: relative;
+}
+.menuimg .img1 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    filter: contrast(120%);
+    filter: saturate(500%);
+}
+.img2 {
+    width: 10%;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+
+/*-------------------------- main --------------------- */
+.infomation p {
+    display: inline-block;
+    font-size: 10px;
+}
+.allow {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    transform: rotate(45deg);
+}
+.imgmodel {
+    margin: 150px 0;
+}
+.imgmodel ul {
+    margin: 0 20px;
+    padding: 0;
+    display: flex;
+}
+.imgmodel li {
+    width: 50%;
+    list-style-type: none;
+}
+.list2 {
+    margin-left: 10px;
+}
+.list2 .staffname {
+    margin-bottom: 5px;
+}
+.imgmodel img {
+    width: 100%;
+}
+.imgmodel p {
+    font-size: 1.5vw;
+    margin: 0;
+}
