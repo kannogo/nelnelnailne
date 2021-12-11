@@ -167,12 +167,19 @@ main {
     padding-top: 0;
 }
 .menulist {
-    width: 300px;
+    width: 285px;
     margin: 10px 0 0 7px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
 }
+
+@media screen and (min-width:1040px) {
+    .menulist {
+        width: 30.4%;
+    }
+}
+
 .hand {
     margin: 5px 0 0 0;
     margin-bottom: 0;
