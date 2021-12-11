@@ -36,6 +36,12 @@ header h1 {
     margin-left: 10px;
     margin-bottom: 0px;
 }
+@media screen and (max-width:350px) {
+    header .mainname {
+        font-size: 18px;
+    }
+}
+
 header span {
     font-size: 12px;
     letter-spacing: 0;

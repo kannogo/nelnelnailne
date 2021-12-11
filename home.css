@@ -469,7 +469,7 @@ img.human {
 }
 .old {
     float: right;
-    padding-right: 9rem;
+    padding-right: 7rem;
     padding-top: 5px;
     font-size: 12px;
     letter-spacing: -1px;
@@ -478,6 +478,24 @@ img.human {
     clear: both;
     margin: 10px;
     font-size: 14px;
+}
+
+@media screen and (max-width:360px) {
+    .costomlist .sumbnal {
+        font-size: 12px;
+    }
+    .costomlist .human {
+        width: 25%;
+        top: 2.5rem;
+        right: 0;
+    }
+    .costomlist .old {
+        position: absolute;
+        right: 0;
+    }
+    .costomlist .coment {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width:640px) {
@@ -576,7 +594,7 @@ sub h4::after {
 }
 .caremenu img {
     width: 100px;
-    height: 88px;
+    height: 93px;
     position: absolute;
     top: 0;
     right: 0;

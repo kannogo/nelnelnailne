@@ -36,6 +36,13 @@ header h1 {
     margin-left: 10px;
     margin-bottom: 0px;
 }
+
+@media screen and (max-width:350px) {
+    header .mainname {
+        font-size: 18px;
+    }
+}
+
 header span {
     font-size: 12px;
     letter-spacing: 0;
@@ -174,6 +181,12 @@ main {
     border-radius: 10px;
 }
 
+@media screen and (max-width:350px) {
+    .menulist {
+        width: 245px;
+    }
+}
+
 @media screen and (min-width:1040px) {
     .menulist {
         width: 30.4%;
@@ -205,10 +218,24 @@ main {
     font-size: 16px;
     font-weight: bold; 
 }
+
+@media screen and (max-width:350px) {
+    .traial {
+        font-size: 16px;
+    }
+}
+
 .buygroup {
     position: relative;
     margin-left: 180px;
 }
+
+@media screen and (max-width:350px) {
+    .buygroup {
+        margin-left: 120px;
+    }
+}
+
 .buy {
     margin: 0;
     font-size: 12px;
@@ -252,5 +279,25 @@ main {
     border: 1px solid;
     border-radius: 20px;
     padding: 4px 40px;
+
+}
+
+@media screen and (max-width:350px) {
+    #basiccare5 {
+        margin: 0;
+        padding: 0;
+        height: 20px;
+    }
+    #anderline5 {
+        margin: 0;
+    }
+    #basiccare6 {
+        margin: 0;
+        padding: 0;
+        height: 20px;
+    }
+    #anderline6 {
+        margin: 0;
+    }
 
 }

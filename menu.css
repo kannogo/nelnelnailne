@@ -36,6 +36,13 @@ header h1 {
     margin-left: 10px;
     margin-bottom: 0px;
 }
+
+@media screen and (max-width:350px) {
+    header .mainname {
+        font-size: 18px;
+    }
+}
+
 header span {
     font-size: 12px;
     letter-spacing: 0;
@@ -215,6 +222,18 @@ main .care {
     margin: 0 0 10px 0;
     font-size: 22px;
     color: rgb(123, 71, 255);
+}
+
+@media screen and (max-width:350px) {
+    .percent .basic {
+        letter-spacing: -2px;
+    }
+    .percent .display {
+        letter-spacing: -2px;
+    }
+    .percent .fifty {
+        letter-spacing: -2px;
+    }
 }
 
 @media screen and (min-width:800px) {
@@ -515,6 +534,14 @@ sub .careinfo {
     font-weight: bold;
     color: indianred;
 }
+
+@media screen and (max-width:350px) {
+    .handcare .redline {
+        margin: 0;
+        padding: 0 5px;
+    }
+}
+
 .memberall {
     text-align: right;
 }

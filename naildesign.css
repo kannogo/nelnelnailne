@@ -36,6 +36,12 @@ header h1 {
     margin-left: 10px;
     margin-bottom: 0px;
 }
+@media screen and (max-width:350px) {
+    header .mainname {
+        font-size: 18px;
+    }
+}
+
 header span {
     font-size: 12px;
     letter-spacing: 0;
@@ -271,6 +277,18 @@ main h1 {
     font-size: 12px;
     border: 1px solid rgb(228, 218, 218);
     padding: 3px 5px;
+}
+
+@media screen and (max-width:350px) {
+    .memberbuy1 {
+        width: 21%;
+    }
+    #memberbuy2 {
+        width: 19%;
+    }
+    .memberbuy2 {
+        width: 22%;
+    }
 }
 
 @media screen and (min-width:640px) {
