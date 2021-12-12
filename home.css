@@ -618,6 +618,11 @@ sub h4::after {
     background-color: rgb(221, 248, 215);
 }
 
+@media screen and (max-width:400px) {
+    .caremenu img {
+        height: 88px;
+    }
+}
 @media screen and (min-width:640px) {
     .caremenu {
         width: 43%;
